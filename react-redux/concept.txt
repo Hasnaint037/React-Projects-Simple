@@ -1,0 +1,13 @@
+hum jab axios sy koi api ko fetch karty hain to response mein hum ko data naam ka milta hai jis mein hamara response hota hai
+
+hum redux mein state ko directly change kyoon nhi kar sakty?
+   is liye kyoon ky wahan states jo hoti hain wo immutable hoti hain aur hamain aik nae state return karni hoti hai jis ka syntax bilkul same hota hai pahli
+state ki tarah
+
+
+hum middlewares kyoon use karty hain redfux mein api call kyliye?
+   kyoon ky hamain action mein sirf koi object dispatch karna hota hai hum koi bhi aisa kaam nhi kar sakty jo promise return karta ho is liye middlewares ki zarorat parti hai
+
+
+what is mongoose?
+   mongoose is a pkg that is actually a interface. For example a user send a request to query some data from mongodb. User can have multiple platforms as windows,linux,mac. so we need a proper interface that is actuallya mongoose. 

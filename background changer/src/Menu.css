@@ -1,0 +1,46 @@
+.main {
+    background-color: gray;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.lists {
+    display: flex;
+    display: none;
+}
+.menu-button {
+    display: none;
+}
+@media (max-width: 500px) {
+    .lists {
+        display: block;
+        position: absolute;
+        transform: translateX(-105px);
+        top: 50px;
+        padding: 3px 5px;
+        height: 170px;
+        transition: 1s;
+        color: white;
+        background-color: red;
+        margin-left: -14px;
+    }
+    .lists ul {
+        height: 100px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .lists ul li {
+        gap: 160px;
+    }
+    .menu-button {
+        display: block;
+    }
+    .show {
+        transform: translateX(0px);
+    }
+}
